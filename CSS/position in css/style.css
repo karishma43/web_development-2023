@@ -1,0 +1,14 @@
+/* img{
+    opacity: 100;
+    text-align: center;
+    text-align: left;
+} */
+nav{
+    position: absolute;
+    
+    color: purple;
+}
+ul{
+    border: none;
+    list-style: none;
+}

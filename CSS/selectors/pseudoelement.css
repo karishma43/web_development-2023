@@ -1,0 +1,22 @@
+/* used to style specified parts of an element */
+/* syntax
+select::element */
+.para-1::first-line{
+    color: green;
+}
+.para-1::first-letter{
+    color: red;
+}
+
+.para-1::after{
+    content: "hey there";
+    color: blue;
+}
+
+.para-1::before{
+    content: hey there;
+}
+
+.para-1:hover{
+font-size: 40px;
+}

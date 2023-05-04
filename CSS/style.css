@@ -1,0 +1,42 @@
+/* h1{
+    border: 1px solid lightblue;
+    color: blue;
+    font-size: 40px;
+} */
+
+/* p{
+    border: 1px dashed red;
+    color: maroon;
+    font-size: 40px;
+} */
+
+/* class selector */
+.para{
+color: blue;
+}
+
+/* id selector */
+#para{
+    color: gold;
+}
+
+/* universal selector */
+*{
+    text-align: center;
+}
+
+/* grouping selector */
+
+h1,p{
+    border: 1px solid blue;
+    color: red;
+    font-size: 40px;
+}
+
+.btn{
+    border: 1px solid black;
+}
+
+#btn-1{
+    background-color: red;
+}

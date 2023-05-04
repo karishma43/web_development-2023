@@ -1,0 +1,12 @@
+/* select[attribute_name="attribute_value"] */
+
+input[type="text"]{
+    border: 1px solid lawngreen;
+    border-radius: 20px;
+}
+#yellow{
+    background-color: yellow;
+    border-width: 1px;
+    border-color: green;
+}
+

@@ -1,0 +1,21 @@
+/* General sibling seletor(~) */
+
+/* .head ~ p{
+    color: red;
+} */
+
+
+/* Adjacent sibling selector (+) */
+/* #para + .head{
+    color: red;
+} */
+
+/* child selector(>) */
+
+/* div>p{
+    color: red;
+} */
+
+/* desecedent selector() */
+/* target all the decendent of an element */
+

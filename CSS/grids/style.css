@@ -1,0 +1,27 @@
+.container{
+    display: grid;
+    width: 100%;
+    background-color: lightblue;
+    /* grid-template-columns: 25% 25% 25% 25%; */
+    /* repeat(no.of col.width of col) */
+    /* grid-template-columns: repeat(4,25%); */
+    grid-template-columns: repeat(4,25%);
+    /* grid-template-rows:20% 50%; */
+    /* rows manage the height */
+    /* grid-template-rows:repeat(12,20%); */
+    /* column-gap:4px ;
+    row-gap: 5px; */
+/* gap is row and column gap */
+    gap: 10px 20px;
+    /* justify-items: center;
+    align-items: center; */
+    place-items: center start;
+
+}
+
+.container .item{
+    
+    background-color: blue;
+    color: white;
+    margin: 5px;
+}
