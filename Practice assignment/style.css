@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FCAF02;
+    height: 70px;
+    position: sticky;
+    top: 0px;
+}
+
+.navbar .logo img{
+    width: 35%;
+}
+.nav-items{
+    margin-right: 78px;
+}
+
+.nav-items a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 17px;
+    color: #000000;
+    padding: 0px 25px;
+}
+
+
+
+.table{
+    color: #FCAF02;
+    font-size: 17px;
+    padding-bottom: 60px;
+    
+}
+table, thead{
+    width: 100%;
+    border: 2px solid #FCAF02;
+}
+
+td, th{
+    border-left: 2px solid #FCAF02;
+}
+
+tfoot td{
+    border: 2px solid #000000;
+}
+
+table, tr, td, th{
+    padding: 25px;
+    border-collapse: collapse;
+}
+
+tfoot{
+    color: #000000;
+    background-color: #FCAF02;
+    border: 2px solid #000000;
+}
