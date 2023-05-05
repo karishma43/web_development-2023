@@ -1,0 +1,279 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif; 
+ 
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+    color: #B1A592;
+    height: 50px;
+    background-color: black;
+    
+}
+.navbar a{
+    text-decoration: none;
+    padding: 55px;
+    font-weight:400;
+    padding: 0px 25px;
+}
+
+.navbar .left{
+    width: 30%;
+    padding-left: 87px;
+    justify-content: left;
+    background: #323025;
+border-radius: 50px;
+    
+}
+
+.left1 a{
+    box-sizing: border-box;
+    border: 1px solid #B1A592;
+    border-radius: 50px;
+    
+}
+#c0{
+    color: #B1A592;
+}
+#c1:hover{
+    background: #B1A592;
+    color: black;
+
+}
+#c2{
+    color: #B1A592;
+}
+#c3{
+    color: #B1A592;
+}
+#c4{
+    color: #B1A592;
+}
+.navbar .item1{
+    border: 1px solid #B1A592;
+border-radius: 50px;
+box-sizing: border-box;
+}
+
+.container{
+    background-color: black;
+    display: flex;
+}
+
+.container .content{
+    background: #DFD6C5;
+    border-radius: 30px;
+}
+
+
+.content #p1{
+    box-sizing: border-box;
+    border: 1px solid #323025;
+    border-radius: 50px;
+    width: 30%;
+    padding: 5px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 33px;
+    margin-left: 18px;
+    margin-bottom: 5px;
+}
+
+.content figure img{
+    -webkit-transform: scale(1);
+      transform: scale(1);
+      -webkit-transition: .3s ease-in-out;
+      transition: .3s ease-in-out;
+  }
+  .content figure:hover img{
+    -webkit-transform: scale(1.3);
+      transform: scale(1.3);
+  }
+
+.content h1{
+    margin-left: 18px;
+}
+.content img{
+    margin: 25px 18px;
+
+}
+.content p{
+    margin:19px 22px 43px;
+}
+
+.content2 .para{
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+display: grid;
+
+}
+
+.right{
+    display: flex;
+    background: #8E886D;
+     border-radius: 30px; 
+     margin: 5px;
+    }
+
+.para #p2{
+    box-sizing: border-box;
+    border: 1px solid #323025;
+    border-radius: 50px;
+    width: 80%;
+    padding: 5px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 33px;
+    margin-left: 18px;
+    margin-bottom: 5px;
+
+}
+
+.right h1{
+font-weight: 700;
+font-size: 24px;
+margin-top: 5px;
+margin-left: 10px;
+}
+
+.right p{
+ font-style: normal;
+font-weight: 400;
+font-size: 20px;
+margin-left: 10px;
+text-align: center;
+line-height: 24px;
+
+}
+
+.right img{
+    margin: 25px 18px 88px;
+    width: 523px;
+height: 235px;
+
+}
+.hover01 figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover01 figure:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+.right1{
+    display: flex;
+    background: #916E58;
+    border-radius: 30px;
+    width: 405px;
+    height: 597px;
+    margin-right: 5pxpx;
+    margin-left: 10px;
+
+}
+.right1 img{
+    margin:12px 13px 5px 7px
+}
+.right1 p{
+    
+    margin-right: 14px;
+   margin-left: 9px;
+   font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+}
+.right-left figure img{
+    -webkit-transform: scale(1);
+      transform: scale(1);
+      -webkit-transition: .3s ease-in-out;
+      transition: .3s ease-in-out;
+  }
+  .right-left figure:hover img{
+    -webkit-transform: scale(1.3);
+      transform: scale(1.3);
+  }
+.right1 h1{
+    margin: 18px 81px 10px 20px;
+}
+
+
+
+.right3{
+    display: flex;
+     background: #B1A48E;
+    border-radius: 65px;
+    margin-left: -56px;
+    width: 119%;
+    height:600px;
+    /* left: 1161px; */
+   top: 480px;
+   margin-left: 5px;
+  
+  
+}
+.right3 p{
+    box-sizing: border-box;
+    border: 1px solid #323025;
+    border-radius: 50px;
+    width: 80%;
+    padding: 5px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 33px;
+    margin-left: 18px;
+    margin-bottom: 5px;
+ 
+}
+
+.hover02 figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover02 figure:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+.right4{
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar{
+        flex-direction: column;
+
+    }
+   
+     .container{
+        width: auto;
+        height: 50vh;
+     }
+
+     content #p1{
+        
+        width: auto;
+       
+    }
+ 
+  
+
+}
+
+
+
+
+
+
+
+
+
