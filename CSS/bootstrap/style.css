@@ -1,0 +1,15 @@
+.card{
+    display: flex;
+}
+.row{
+    align-content: flex-start;
+    flex-wrap: wrap;
+
+}
+
+.card{
+   
+    width: 400px;
+    height: 100vh;
+    
+}
