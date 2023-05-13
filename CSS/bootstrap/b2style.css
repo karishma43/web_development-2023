@@ -13,8 +13,8 @@
 
 .image-wrapper{
     display: flex;
-    height: 30px;
-    width:200px
-   
+}
 
+.image-wrapper img{
+    height: 30vh;
 }
