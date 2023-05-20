@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test2</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="left">
+            <a href="#">Library System</a>
+        </div>
+        <div class="right">
+            <a href="#">Books</a>
+            <a href="#">Register</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Logout</a>
+        </div>
+    </nav>
+    <div class="table-1">
+        <caption class="p1"><b>Books</b></caption>
+        <table border="1">
+            <tr>
+            <th>Book ID</th>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Genre</th>
+            <th>Availability</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td><a href="#">Book Title-1</a></td>
+                <td>Author Name 1</td>
+                <td>Genre 1</td>
+                <td>Available</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td><a href="#">Book Title-2</a></td>
+                <td>Author Name 2</td>
+                <td>Genre 2</td>
+                <td>Not Available</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td><a href="#">Book Title-3</a></td>
+                <td>Author Name 3</td>
+                <td>Genre 3</td>
+                <td>Not Available</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td><a href="#">Book Title-4</a></td>
+                <td>Author Name 4</td>
+                <td>Genre 4</td>
+                <td>Available</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td><a href="#">Book Title-5</a></td>
+                <td>Author Name 5</td>
+                <td>Genre 5</td>
+                <td>Not Available</td>
+            </tr>
+        </table>
+</div>
+<div class="form1">
+    <caption><b>Register</b></caption>
+    <form method="post">
+        <div class="name">
+            <label for="name">First Name</label>
+        <br>
+        <input type="text" id="para" required>
+        </div>
+        <div class="name">
+            <label for="name">Last Name</label>
+            <br>
+            <input type="text" id="para1" required>
+        </div>
+        <div class="name">
+            <label for="dob" >Date Of Birth</label>
+            <br>
+            <input type="date" required>
+        </div>
+        <div class="name">
+            <label for="age">Age</label>
+            <br>
+            <input type="number" minlength="2" required>
+        </div>
+        <div class="name">
+            <label for="email">Email</label>
+            <br>
+            <input type="email" id="para2" required>
+        </div>
+        <div class="name">
+            <label for="password">Password</label>
+            <br>
+            <input type="password" required placeholder="***">
+        </div>
+        <div class="name">
+            <label for="password">Confirm Password</label>
+            <br>
+            <input type="password" required placeholder="***">
+        </div>
+        <br>
+        <div class="name" id="p2">
+           <button>Register</button>
+        </div>
+        
+       
+    </form>
+
+</div>
+    
+</body>
+</html>
