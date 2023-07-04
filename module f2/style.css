@@ -17,6 +17,8 @@ span{
     margin-bottom: 15px;
 }
 
+
+
 input{
     background-color: black;
     outline: grey solid 1px;
@@ -25,12 +27,19 @@ input{
     padding: 8px;
     margin: 10px;
 }
+input:hover{
+    outline:skyblue solid 2px;
+    
+}
 
 #addStudent{
     margin: 10px;
     padding: 8px;
     width: 38%;
     margin-bottom: 60px;
+}
+#addStudent:hover{
+    outline: skyblue solid 2px;
 }
 
 #editStudent{
@@ -52,7 +61,11 @@ table{
 
 table{
     border: solid 1px white;
-    margin-left: 20px;
+    
+}
+table:hover{
+    outline:skyblue solid 1px;
+    
 }
 
 
